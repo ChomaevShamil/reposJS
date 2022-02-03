@@ -72,3 +72,17 @@ let user = {
   };
   
   user.sayHi();
+
+  
+  // try and catch 
+try {
+    alert('no error');
+    him = 20;
+    alert('no error');
+    hit = 30;
+    alert('no error');  
+    hil;
+    alert("no error");
+  } catch(error) {
+    alert(`error founded`)
+  }
