@@ -30,3 +30,17 @@ for (let R = 0; R < 6; R++) {
     if (R == 3) break;
     if (R == 5) break;
 }
+
+
+// операторы =, ==, ===
+let p = "0" 
+let l = 0
+if (p == l){
+    console.log(true)
+}
+else
+    console.log(false)
+if (p === l){
+    console.log(true)}
+    else
+    console.log(false)
