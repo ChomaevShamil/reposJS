@@ -60,3 +60,15 @@ const newFunction = (a, b) => {
     return c
 }
 newFunction(3,3)
+
+
+//ОПЕРАТОР THIS
+let user = {
+    name: "John",
+    age: 30,
+    sayHi() {
+      alert(this.name);
+    }
+  };
+  
+  user.sayHi();
