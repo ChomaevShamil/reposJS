@@ -32,3 +32,11 @@ let aaaa = {};
 let bbbb = {}; 
 
 alert( aaaa == bbbb ); 
+
+
+//NaN
+getNan = 2 * undefined
+isNaN(getNan)
+
+var x = [1, 2, 3, "a", "b", "c"]; 
+var a = x.toString();
