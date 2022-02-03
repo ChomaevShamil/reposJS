@@ -21,3 +21,14 @@ const Days = {
 }
 Days.monday = 1
 console.log(Days)
+
+//что такое ссылка на объект
+let aaa = {};
+let bbb = aaa; 
+alert( aaa == bbb );
+alert( aaa === bbb )
+
+let aaaa = {};
+let bbbb = {}; 
+
+alert( aaaa == bbbb ); 
