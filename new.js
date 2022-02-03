@@ -44,3 +44,19 @@ if (p === l){
     console.log(true)}
     else
     console.log(false)
+
+
+//функции
+sum(2,2)
+function sum(a,b){
+    c = a + b
+    console.log(c)
+}
+
+const newFunction = (a, b) => {
+    let c
+    a += 1
+    c = a + b
+    return c
+}
+newFunction(3,3)
