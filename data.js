@@ -47,3 +47,10 @@ ytr = {a: 123}
 alert (ytr.b)
 
 
+
+//Когда использовать null, а когда undefined?
+let newVar
+alert(newVar)
+let newVar2 = null
+alert (newVar2)
+
