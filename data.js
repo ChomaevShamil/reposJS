@@ -54,3 +54,10 @@ alert(newVar)
 let newVar2 = null
 alert (newVar2)
 
+
+//метод hasOwnProperty
+const user = {
+	va: 10,
+}
+alert(user.hasOwnProperty('va'))
+alert(user.hasOwnProperty('toString'))
