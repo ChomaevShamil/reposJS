@@ -83,3 +83,14 @@ k = [56,12,54]
 k1 = [53, 54, 12]
 let [x1,x2,x3] = new Set(k)
 let [y1, y2, y3] = new Set(k1)
+
+
+
+//задача
+function createAndFill(size, content) {
+    const a = [];
+    for (let num = 0; num <= size; num++) {
+        a.push(content);
+    }
+    return a
+}
