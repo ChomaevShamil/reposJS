@@ -100,3 +100,10 @@ roundNumb(1.6666)
 
 Math.floor(1.6666)
 Math.ceil(1.6666)
+
+//parseInt,parseFloat
+let newSting = "111"
+alert(typeof(parseInt(newSting)))
+let newFloatString = "111.111.111.111"
+alert(typeof(parseFloat(newFloatString)))
+
