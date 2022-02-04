@@ -71,3 +71,13 @@ function vars(){
 }
 alert(globalVar)
 alert(localVar)
+
+
+
+//ссылочные и примитивные типы данных 
+let primitiv = 5
+let primitiv2 = 5
+let std = {a : 123}
+let std2 = {a: 123}
+alert(primitiv == primitiv2)
+alert(std === std2)
