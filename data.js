@@ -40,3 +40,10 @@ isNaN(getNan)
 
 var x = [1, 2, 3, "a", "b", "c"]; 
 var a = x.toString();
+
+
+//получение несуществующего свойства из объекта
+ytr = {a: 123}
+alert (ytr.b)
+
+
