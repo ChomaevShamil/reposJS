@@ -89,3 +89,14 @@ function getMaxInArr(array){
     return Math.max.apply(null, array)
 }
 getMaxInArr(c)
+
+
+//Округление до 3 знака, округление вниз и вверх
+function roundNumb(x){
+    let m = Math.pow(10,3)
+    return Math.round(x*m)/m;
+  }
+roundNumb(1.6666)
+
+Math.floor(1.6666)
+Math.ceil(1.6666)
