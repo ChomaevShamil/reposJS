@@ -81,3 +81,11 @@ let std = {a : 123}
 let std2 = {a: 123}
 alert(primitiv == primitiv2)
 alert(std === std2)
+
+
+//Math
+c = [2,3,4,6,8,9,10]
+function getMaxInArr(array){
+    return Math.max.apply(null, array)
+}
+getMaxInArr(c)
