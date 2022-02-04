@@ -61,3 +61,13 @@ const user = {
 }
 alert(user.hasOwnProperty('va'))
 alert(user.hasOwnProperty('toString'))
+
+
+
+//глобальные и локальные переменные
+let globalVar = 10;
+function vars(){
+    let localVar = 5;
+}
+alert(globalVar)
+alert(localVar)
